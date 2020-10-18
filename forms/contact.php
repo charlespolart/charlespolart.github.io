@@ -23,10 +23,9 @@
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   $contact->smtp = array(
     'host' => 'smtp.office365.com',
-    'username' => 'mario.polart@hotmail.fr',
+    'username' => 'charles.polart@hotmail.fr',
     'password' => '$hv58pnL6540',
     'port' => '587'
   );
