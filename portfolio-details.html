@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Personal Bootstrap Template</title>
+  <title>Portfolio Détails - Pathtracing</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,12 +29,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: MyResume - v2.1.0
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -40,31 +36,114 @@
   <main id="main">
 
     <!-- ======= Portfolio Details ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <section id="portfolio-details-pathtracing" class="portfolio-details" hidden>
       <div class="container" data-aos="fade-up">
 
         <div class="row">
 
           <div class="col-lg-8">
-            <h2 class="portfolio-title">This is an example of portfolio detail</h2>
+            <h2 class="portfolio-title">Pathtracing</h2>
             <div class="owl-carousel portfolio-details-carousel">
-              <img src="assets/img/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="">
-              <img src="assets/img/portfolio/portfolio-details-2.jpg" class="img-fluid" alt="">
-              <img src="assets/img/portfolio/portfolio-details-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/pathtracing/portfolio.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/pathtracing/portfolio-details-1.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/pathtracing/portfolio-details-2.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/pathtracing/portfolio-details-3.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/pathtracing/portfolio-details-4.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-4 portfolio-info">
-            <h3>Project information</h3>
+            <h3>Détails du projet</h3>
             <ul>
-              <li><strong>Category</strong>: Web design</li>
-              <li><strong>Client</strong>: ASU Company</li>
-              <li><strong>Project date</strong>: 01 March, 2020</li>
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Catégorie</strong>: Développement logiciel</li>
+              <li><strong>Client</strong>: Projet personnel</li>
+              <li><strong>Date</strong>: Janvier, 2020</li>
+              <li><strong>URL</strong>: <a href="https://www.github.com/charlespolart/Pathtracing"
+                  target="_blank" rel="noopener noreferrer">www.github.com/charlespolart/Pathtracing</a></li>
             </ul>
 
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              Développement d'un logiciel et moteur de Path tracing en C++/Qt. Le moteur utilise seulement la STL ainsi
+              que la librairie FreeImage pour le chargement de texture et OpenGL pour la preview.<br>
+              Fonctionnalités principales :<br>
+              -Chargement de fichier 3D .obj + .mtl<br>
+              -Génération d'arbres de collision AABB<br>
+              -Édition des matériaux<br>
+              -Sauvegarde et importation de scène sous le format .json<br>
+              -Affichage d'une preview en OpenGL permettant le placement de la caméra (déplacements à la souris)<br>
+              -Multithreading (génération d'arbres + rendu)<br>
+              Code source : <a href="https://www.github.com/charlespolart/Pathtracing" target="_blank"
+                rel="noopener noreferrer">www.github.com/charlespolart/Pathtracing</a>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details -->
+
+    <!-- ======= Portfolio Details ======= -->
+    <section id="portfolio-details-routing" class="portfolio-details" hidden>
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8">
+            <h2 class="portfolio-title">Aide au routage</h2>
+            <div class="owl-carousel portfolio-details-carousel">
+              <img src="assets/img/portfolio/routing/portfolio.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/routing/portfolio-details-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 portfolio-info">
+            <h3>Détails du projet</h3>
+            <ul>
+              <li><strong>Catégorie</strong>: Développement logiciel</li>
+              <li><strong>Client</strong>: ConsolWeb</li>
+              <li><strong>Date</strong>: Mai, 2020</li>
+            </ul>
+
+            <p>
+              Développement complet d'un logiciel d'aide au câblage.
+              Le logiciel permet l'ouverture de fichier sous différents formats contenant la liste des différents points
+              à câbler. Le technicien peut voir les différentes couches de la carte et visualiser précisément un à un
+              les points dans le bon ordre.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details -->
+
+    <!-- ======= Portfolio Details ======= -->
+    <section id="portfolio-details-capainterim" class="portfolio-details" hidden>
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8">
+            <h2 class="portfolio-title">Capa Interim</h2>
+            <div class="owl-carousel portfolio-details-carousel">
+              <img src="assets/img/portfolio/capainterim/portfolio.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 portfolio-info">
+            <h3>Détails du projet</h3>
+            <ul>
+              <li><strong>Catégorie</strong>: Web Back-end</li>
+              <li><strong>Client</strong>: Capa Interim</li>
+              <li><strong>Date</strong>: Octobre, 2017</li>
+              <li><strong>URL</strong>: <a href="https://www.capainterim.com" target="_blank"
+                  rel="noopener noreferrer">www.capainterim.com</a></li>
+            </ul>
+
+            <p>
+              Développement back-end d'un site d'interim permettant par exemple la recherche des différentes annonces et
+              de créer un compte pour uploader son CV, ainsi qu'une partie administration pour gérer l'ensemble du
+              contenu (annonces, actualités, utilisateurs).
             </p>
           </div>
 
@@ -82,7 +161,6 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
@@ -93,6 +171,20 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    var param = new URLSearchParams(window.location.search);
+
+    if (param.has('pathtracing')) {
+      document.getElementById('portfolio-details-pathtracing').hidden = false;
+    }
+    else if (param.has('routing')) {
+      document.getElementById('portfolio-details-routing').hidden = false;
+    }
+    else if (param.has('capainterim')) {
+      document.getElementById('portfolio-details-capainterim').hidden = false;
+    }
+  </script>
 
 </body>
 
