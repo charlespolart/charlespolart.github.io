@@ -27,7 +27,7 @@ function sendMail(form) {
             'Authorization': ' 92e6deea-c397-4277-8d73-2c371bbcf94d',
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ "name": form.name, "from": form.email, "subject": subject, "message": form.message + new Date() })
+        body: JSON.stringify({ "name": form.name, "from": form.email, "subject": form.subject, "message": form.message })
     })
         .then((res) => res.json())
         .then((json) => console.log(json))
