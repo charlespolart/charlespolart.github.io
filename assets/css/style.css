@@ -444,6 +444,15 @@ section {
   background: none;
 }
 
+.skill-title {
+  color: #999;
+  font-size: small;
+}
+
+.skill-category {
+  margin-bottom: 30px;
+}
+
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
