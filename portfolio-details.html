@@ -36,6 +36,37 @@
   <main id="main">
 
     <!-- ======= Portfolio Details ======= -->
+    <section id="portfolio-details-workspace" class="portfolio-details" hidden>
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8">
+            <h2 class="portfolio-title">Workspace</h2>
+            <div class="owl-carousel portfolio-details-carousel">
+              <img src="assets/img/portfolio/workspace/portfolio.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 portfolio-info">
+            <h3>Détails du projet</h3>
+            <ul>
+              <li><strong>Catégorie</strong>: Développement logiciel</li>
+              <li><strong>Client</strong>: CEA (Commissariat à l'énergie atomique et aux énergies alternatives)</li>
+              <li><strong>Date</strong>: Décembre, 2020</li>
+            </ul>
+
+            <p>
+              Développement et intégration de nouvelles fonctionnalités sur l’application Workspace, outil d’analyse de signaux sismiques/infrason/hydro-acoustique.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details -->
+
+    <!-- ======= Portfolio Details ======= -->
     <section id="portfolio-details-pathtracing" class="portfolio-details" hidden>
       <div class="container" data-aos="fade-up">
 
@@ -175,7 +206,10 @@
   <script>
     var param = new URLSearchParams(window.location.search);
 
-    if (param.has('pathtracing')) {
+    if (param.has('workspace')) {
+      document.getElementById('portfolio-details-workspace').hidden = false;
+    }
+    else if (param.has('pathtracing')) {
       document.getElementById('portfolio-details-pathtracing').hidden = false;
     }
     else if (param.has('routing')) {
