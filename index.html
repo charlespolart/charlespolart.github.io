@@ -1,135 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Charles Polart</title>
+    <meta content="Charles Polart" name="descriptison" />
+    <meta content="Charles Polart" name="keywords" />
 
-  <title>Charles Polart</title>
-  <meta content="Charles Polart" name="descriptison">
-  <meta content="Charles Polart" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none">
+      <i class="icofont-navigation-menu"></i>
+    </button>
 
-</head>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex flex-column justify-content-center">
+      <nav class="nav-menu">
+        <ul>
+          <li class="active">
+            <a href="#hero"><i class="bx bx-home"></i> <span>Accueil</span></a>
+          </li>
+          <li>
+            <a href="#about"
+              ><i class="bx bx-user"></i> <span>À propos</span></a
+            >
+          </li>
+          <li>
+            <a href="#skills"
+              ><i class="bx bx-file-blank"></i> <span>Compétences</span></a
+            >
+          </li>
+          <li>
+            <a href="#resume"
+              ><i class="bx bx-book-content"></i> <span>Expériences</span></a
+            >
+          </li>
+          <li>
+            <a href="#portfolio"
+              ><i class="bx bx-server"></i> <span>Portfolio</span></a
+            >
+          </li>
+          <li>
+            <a href="#contact"
+              ><i class="bx bx-envelope"></i> <span>Contact</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </header>
+    <!-- End Header -->
 
-<body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav class="nav-menu">
-      <ul>
-        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Accueil</span></a></li>
-        <li><a href="#about"><i class="bx bx-user"></i> <span>À propos</span></a></li>
-        <li><a href="#skills"><i class="bx bx-file-blank"></i> <span>Compétences</span></a></li>
-        <li><a href="#resume"><i class="bx bx-book-content"></i> <span>Expériences</span></a></li>
-        <li><a href="#portfolio"><i class="bx bx-server"></i> <span>Portfolio</span></a></li>
-        <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Charles Polart</h1>
-      <p>Je suis <span class="typed" data-typed-items="Développeur, Auto Entrepreneur"></span></p>
-      <div class="social-links">
-        <a href="https://www.github.com/charlespolart" target="_blank" rel="noopener noreferrer" class="github"><i
-            class="bx bxl-github"></i></a>
-        <a href="https://www.linkedin.com/in/charles-polart-638182170" target="_blank" rel="noopener noreferrer"
-          class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>À propos</h2>
-          <p></p>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center">
+      <div class="container" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Charles Polart</h1>
+        <p>
+          Je suis
+          <span
+            class="typed"
+            data-typed-items="Développeur, Auto Entrepreneur"
+          ></span>
+        </p>
+        <div class="social-links">
+          <a
+            href="https://www.github.com/charlespolart"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="github"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/charles-polart-638182170"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
         </div>
+      </div>
+    </section>
+    <!-- End Hero -->
 
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/profile.jpg" class="img-fluid" alt="">
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>À propos</h2>
+            <p></p>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Développeur Logiciel</h3>
-            <p class="font-italic">
-              Passionné d'informatique, j'ai commencé à apprendre le langage C au lycée.<br>
-              Ensuite, j'ai intégré l'école Epitech à Rennes pour y effectuer mon Master.<br>
-              Pendant mes études, je me suis lancé dans le freelance et la réalisation de projets personnels,
-              notamment la création d'un moteur de pathtracing et d'un robot de trading. Cela m'a permis de découvrir
-              d'autres technologies et d'élargir mes compétences.<br>
-              Après l'obtention de mon diplôme, j'ai commencé à travailler en CDI dans le développement logiciel, poursuivant ainsi ma spécialisation dans ce domaine.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Date de naissance:</strong> 02 Mars 1995</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Site Web:</strong> <a
-                      href="https://www.charlespolart.com" target="_blank"
-                      rel="noopener noreferrer">charlespolart.com</a></li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Téléphone:</strong> <a href="tel: +33627757715" target="_blank">06 27 75 77 15</a></li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Mail:</strong> <a href="mailto: charles.polart@hotmail.fr" target="_blank">charles.polart@hotmail.fr</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Localité:</strong> Rennes, France</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Disponible</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Diplôme:</strong> Master Expert en Technologies de
-                    l'Information</li>
-                </ul>
-              </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/img/profile.jpg" class="img-fluid" alt="" />
             </div>
-            <p>
-              Je suis spécialisé dans le développement C++/Qt et travaille actuellement pour des clients tels que le CEA
-              (Commissariat à l'énergie atomique et aux énergies alternatives) et Airbus Defense and Space.<br>
-              <br>
-              Ma stack de base :<br>
-              - Développement logiciel : C/C++/Qt<br>
-              - Développement Front : Angular/React/JavaScript/TypeScript<br>
-              - Développement Back : Node.js/MySQL/GraphQL/PostgreSQL<br>
-              <br>
-              N'hésitez pas à me contacter, nous discuterons ensemble de votre projet.
-            </p>
+            <div class="col-lg-8 pt-4 pt-lg-0">
+              <div class="content">
+                <h3>Développeur Logiciel</h3>
+                <p class="font-italic">
+                  Passionné d'informatique, j'ai commencé à apprendre le langage
+                  C au lycée.<br />
+                  Ensuite, j'ai intégré l'école Epitech à Rennes pour y
+                  effectuer mon Master.<br />
+                  Pendant mes études, je me suis lancé dans le freelance et la
+                  réalisation de projets personnels, notamment la création d'un
+                  moteur de pathtracing et d'un robot de trading. Cela m'a
+                  permis de découvrir d'autres technologies et d'élargir mes
+                  compétences.<br />
+                  Après l'obtention de mon diplôme, j'ai commencé à travailler
+                  en CDI dans le développement logiciel, poursuivant ainsi ma
+                  spécialisation dans ce domaine.
+                </p>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul>
+                      <li>
+                        <i class="icofont-rounded-right"></i>
+                        <strong>Date de naissance:</strong> 02 Mars 1995
+                      </li>
+                      <li>
+                        <i class="icofont-rounded-right"></i>
+                        <strong>Site Web:</strong>
+                        <a
+                          href="https://www.charlespolart.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >charlespolart.com</a
+                        >
+                      </li>
+                      <li>
+                        <i class="icofont-rounded-right"></i>
+                        <strong>Téléphone:</strong>
+                        <a href="tel: +33627757715" target="_blank"
+                          >06 27 75 77 15</a
+                        >
+                      </li>
+                      <li>
+                        <i class="icofont-rounded-right"></i>
+                        <strong>Mail:</strong>
+                        <a
+                          href="mailto: charles.polart@hotmail.fr"
+                          target="_blank"
+                          >charles.polart@hotmail.fr</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul>
+                      <li>
+                        <i class="icofont-rounded-right"></i>
+                        <strong>Localité:</strong> Rennes, France
+                      </li>
+                      <li>
+                        <i class="icofont-rounded-right"></i>
+                        <strong>Freelance:</strong> Disponible
+                      </li>
+                      <li>
+                        <i class="icofont-rounded-right"></i>
+                        <strong>Diplôme:</strong> Master Expert en Technologies
+                        de l'Information
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Je suis spécialisé dans le développement C++/Qt et travaille
+                actuellement pour des clients tels que le CEA (Commissariat à
+                l'énergie atomique et aux énergies alternatives) et Airbus
+                Defense and Space.
+              </p>
+              Ma stack de base :<br />
+              <ul>
+                <li>Développement logiciel : C/C++/Qt</li>
+                <li>
+                  Développement Front : Angular/React/JavaScript/TypeScript
+                </li>
+                <li>Développement Back : Node.js/MySQL/GraphQL/PostgreSQL</li>
+              </ul>
+              <br />
+              <p>
+                N'hésitez pas à me contacter, nous discuterons ensemble de votre
+                projet.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- End About Section -->
 
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
-    <!-- <section id="facts" class="facts">
+      <!-- ======= Facts Section ======= -->
+      <!-- <section id="facts" class="facts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -177,311 +269,404 @@
 
       </div>
     </section>-->
-    <!-- End Facts Section -->
+      <!-- End Facts Section -->
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container col-lg-6" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Compétences</h2>
-          <p></p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-6">
-
-            <div class="skill-category">
-              <p class="skill-title">Langages</p>
-              <span class="skill">C <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">C++ <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">C# <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">Typescript <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">PHP <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">Javascript <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">HTML <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">CSS <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">Dart <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">SQL <i class="val"></i></span>
-            </div>
-            <div class="skill-category">
-              <p class="skill-title">Frameworks</p>
-              <span class="skill">Angular <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">Qt <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">WPF <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">React <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">Symfony <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">Bootstrap <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">jQuery <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">GraphQL <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">Flutter <i class="val"></i></span>
-            </div>
-
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container col-lg-6" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Compétences</h2>
+            <p></p>
           </div>
 
-          <div class="col-6">
+          <div class="row skills-content">
+            <div class="col-6">
+              <div class="skill-category">
+                <p class="skill-title">Langages</p>
+                <span class="skill">C <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">C++ <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">C# <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">Typescript <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">PHP <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">Javascript <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">HTML <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">CSS <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">Dart <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">SQL <i class="val"></i></span>
+              </div>
+              <div class="skill-category">
+                <p class="skill-title">Frameworks</p>
+                <span class="skill">Angular <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">Qt <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">WPF <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">React <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">Symfony <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">Bootstrap <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">jQuery <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">GraphQL <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">Flutter <i class="val"></i></span>
+              </div>
+            </div>
 
-            <div class="skill-category">
-              <p class="skill-title">Librairies</p>
-              <span class="skill">OpenGL <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">Boost <i class="val"></i></span>
+            <div class="col-6">
+              <div class="skill-category">
+                <p class="skill-title">Librairies</p>
+                <span class="skill">OpenGL <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">Boost <i class="val"></i></span>
+              </div>
+              <div class="skill-category">
+                <p class="skill-title">Environnements d'exécution</p>
+                <span class="skill">Node <i class="val"></i></span>
+              </div>
+              <div class="skill-category">
+                <p class="skill-title">Bases de données</p>
+                <span class="skill">MySQL <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">MariaDB <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">PostgreSQL <i class="val"></i></span>
+              </div>
+              <div class="skill-category">
+                <p class="skill-title">Gestionnaires de versions</p>
+                <span class="skill">Git <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">SVN <i class="val"></i></span>
+              </div>
+              <div class="skill-category">
+                <p class="skill-title">Shell</p>
+                <span class="skill">Bash <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">ZSH <i class="val"></i></span>
+              </div>
+              <div class="skill-category">
+                <p class="skill-title">Systèmes d'exploitation</p>
+                <span class="skill">Windows <i class="val"></i></span>
+                <hr class="solid" />
+                <span class="skill">Linux <i class="val"></i></span>
+              </div>
             </div>
-            <div class="skill-category">
-              <p class="skill-title">Environnements d'exécution</p>
-              <span class="skill">Node <i class="val"></i></span>
-            </div>
-            <div class="skill-category">
-              <p class="skill-title">Bases de données</p>
-              <span class="skill">MySQL <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">MariaDB <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">PostgreSQL <i class="val"></i></span>
-            </div>
-            <div class="skill-category">
-              <p class="skill-title">Gestionnaires de versions</p>
-              <span class="skill">Git <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">SVN <i class="val"></i></span>
-            </div>
-            <div class="skill-category">
-              <p class="skill-title">Shell</p>
-              <span class="skill">Bash <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">ZSH <i class="val"></i></span>
-            </div>
-            <div class="skill-category">
-              <p class="skill-title">Systèmes d'exploitation</p>
-              <span class="skill">Windows <i class="val"></i></span>
-              <hr class="solid">
-              <span class="skill">Linux <i class="val"></i></span>
-            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills Section -->
 
+      <!-- ======= Resume Section ======= -->
+      <section id="resume" class="resume">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Expériences</h2>
+            <p></p>
           </div>
 
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Expériences</h2>
-          <p></p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Expériences Entreprise</h3>
-            <div class="resume-item">
-              <h4>Développeur C++/Qt</h4>
-              <h5>Décembre 2020 - Aujourd'hui</h5>
-              <p><em>Silicom</em></p>
-              <ul>
-                <li>CEA (Commissariat à l'énergie atomique et aux énergies alternatives)</li>
+          <div class="row">
+            <div class="col-lg-6">
+              <h3 class="resume-title">Expériences Entreprise</h3>
+              <div class="resume-item">
+                <h4>Développeur C++/Qt</h4>
+                <h5>Décembre 2020 - Aujourd'hui</h5>
+                <p><em>Silicom</em></p>
                 <ul>
-                  <li>Développement et intégration de nouvelles fonctionnalités dans l'application Workspace, un outil
-                    d'analyse de signaux sismiques/infrasons/hydro-acoustiques.</li>
-                  <li>TMA sur le logiciel Ceres, un outil d'évaluation des conséquences sanitaires des rejets de polluants
-                    dans l'environnement.</li>
-                  <li>TMA sur le logiciel Diva, un outil de surveillance et d'affichage des données des stations du réseau
-                    sismique/infrasons/hydro-acoustiques dans le temps.</li>
-                </ul>
+                  <li>
+                    CEA (Commissariat à l'énergie atomique et aux énergies
+                    alternatives)
+                  </li>
+                  <ul>
+                    <li>
+                      Développement et intégration de nouvelles fonctionnalités
+                      dans l'application Workspace, un outil d'analyse de
+                      signaux sismiques/infrasons/hydro-acoustiques.
+                    </li>
+                    <li>
+                      TMA sur le logiciel Ceres, un outil d'évaluation des
+                      conséquences sanitaires des rejets de polluants dans
+                      l'environnement.
+                    </li>
+                    <li>
+                      TMA sur le logiciel Diva, un outil de surveillance et
+                      d'affichage des données des stations du réseau
+                      sismique/infrasons/hydro-acoustiques dans le temps.
+                    </li>
+                  </ul>
 
-                <li>Airbus Defence and Space</li>
+                  <li>Airbus Defence and Space</li>
+                  <ul>
+                    <li>
+                      Développement et intégration de nouvelles fonctionnalités
+                      dans l'application Magellan, un logiciel pour la
+                      communication sécurisée à travers les réseaux sans fil.
+                    </li>
+                  </ul>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Développeur C#/C</h4>
+                <h5>Mars 2020 - Août 2020</h5>
+                <p><em>La Ruche - Thalès</em></p>
                 <ul>
-                  <li>Développement et intégration de nouvelles fonctionnalités dans l'application Magellan, un logiciel
-                    pour la communication sécurisée à travers les réseaux sans fil.</li>
+                  <li>
+                    Développement d'un logiciel de détections de drones aériens
+                    sous Unity et d'un simulateur de radar
+                  </li>
                 </ul>
-              </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Développeur C++</h4>
+                <h5>Avril 2017 - Août 2017</h5>
+                <p><em>Sogitec Industries - Groupe Dassault</em></p>
+                <ul>
+                  <li>
+                    Développement d'un système de rendu hybride
+                    raytracing/rastérisation pour la simulation de vol
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Développeur C/C++ Embarqué | R&D</h4>
+                <h5>Septembre 2016 - Mars 2017</h5>
+                <p><em>R&D Tech France</em></p>
+                <ul>
+                  <li>Contrôle de lasers à travers le réseau.</li>
+                  <li>Déclenchement du parachute d'un drone.</li>
+                  <li>Stabilisation d'un bras robot.</li>
+                </ul>
+              </div>
+              <h3 class="resume-title">Expériences Auto Entrepreneur</h3>
+              <div class="resume-item">
+                <h4>Freelance Développeur Logiciel / Web full stack</h4>
+                <h5>Septembre 2016 - Août 2020</h5>
+                <p><em>Auto Entrepreneur</em></p>
+                <ul>
+                  <li>Développement d'un logiciel d'aide au câblage.</li>
+                  <li>Développement front / intégration pour Leroy Merlin.</li>
+                  <li>
+                    Développement d'un logiciel de conversion de PDF en texte.
+                  </li>
+                  <li>
+                    Développement d'une plateforme de mise en relation sous
+                    Symfony pour la société Capa Interim.
+                  </li>
+                  <li>
+                    Création d'une plateforme de partage d'images pour une ONG.
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="resume-item">
-              <h4>Développeur C#/C</h4>
-              <h5>Mars 2020 - Août 2020</h5>
-              <p><em>La Ruche - Thalès</em></p>
-              <ul>
-                <li>Développement d'un logiciel de détections de drones aériens sous Unity et d'un simulateur de radar
-                </li>
-              </ul>
+            <div class="col-lg-6">
+              <h3 class="resume-title">Projets Personnels</h3>
+              <div class="resume-item">
+                <h4>Développeur C++ / Qt / NodeJs / Flutter</h4>
+                <h5>2019 - 2022</h5>
+                <ul>
+                  <li>
+                    Développement d'un logiciel et moteur de path tracing
+                    (imagerie 3D photoréaliste) en C++/Qt. Le moteur utilise
+                    uniquement la STL, ainsi que la bibliothèque FreeImage pour
+                    le chargement des textures, et OpenGL pour l'aperçu. Le code
+                    source est disponible sur mon Github.
+                  </li>
+                  <li>
+                    Développement d'un programme de trading de cryptomonnaie
+                    utilisant l'API de Binance. Mise en place de différents
+                    indicateurs techniques (RSI/EMA/EMACross/ATR/SwingLow) pour
+                    faciliter les changements de stratégies. Sauvegarde des
+                    résultats et de l'historique pour le suivi et les tests
+                    rétrospectifs (backtesting).
+                  </li>
+                </ul>
+              </div>
+              <h3 class="resume-title">Formation</h3>
+              <div class="resume-item">
+                <h4>Expert en technologies de l'information</h4>
+                <h5>2014 - 2019</h5>
+                <p><em>Epitech, Rennes</em></p>
+                <p></p>
+              </div>
+              <div class="resume-item">
+                <h5>2017 - 2018</h5>
+                <p><em>Beijing Jiaotong University, Pékin</em></p>
+                <p><br /></p>
+              </div>
             </div>
-            <div class="resume-item">
-              <h4>Développeur C++</h4>
-              <h5>Avril 2017 - Août 2017</h5>
-              <p><em>Sogitec Industries - Groupe Dassault</em></p>
-              <ul>
-                <li>Développement d'un système de rendu hybride raytracing/rastérisation pour la simulation de vol</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Développeur C/C++ Embarqué | R&D</h4>
-              <h5>Septembre 2016 - Mars 2017</h5>
-              <p><em>R&D Tech France</em></p>
-              <ul>
-                <li>Contrôle de lasers à travers le réseau.</li>
-                <li>Déclenchement du parachute d'un drone.</li>
-                <li>Stabilisation d'un bras robot.</li>
-              </ul>
-            </div>
-            <h3 class="resume-title">Expériences Auto Entrepreneur</h3>
-            <div class="resume-item">
-              <h4>Freelance Développeur Logiciel / Web full stack</h4>
-              <h5>Septembre 2016 - Août 2020</h5>
-              <p><em>Auto Entrepreneur</em></p>
-              <ul>
-                <li>Développement d'un logiciel d'aide au câblage.</li>
-                <li>Développement front / intégration pour Leroy Merlin.</li>
-                <li>Développement d'un logiciel de conversion de PDF en texte.</li>
-                <li>Développement d'une plateforme de mise en relation sous Symfony pour la société Capa Interim.</li>
-                <li>Création d'une plateforme de partage d'images pour une ONG.</li>
+          </div>
+        </div>
+      </section>
+      <!-- End Resume Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p></p>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-lg-12 d-flex justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">Tout</li>
+                <li data-filter=".filter-software">Logiciel</li>
+                <li data-filter=".filter-web">Web</li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Projets Personnels</h3>
-            <div class="resume-item">
-              <h4>Développeur C++ / Qt / NodeJs / Flutter</h4>
-              <h5>2019 - 2022</h5>
-              <ul>
-                <li>Développement d'un logiciel et moteur de path tracing (imagerie 3D photoréaliste) en C++/Qt. Le moteur
-                  utilise uniquement la STL, ainsi que la bibliothèque FreeImage pour le chargement des textures, et OpenGL
-                  pour l'aperçu. Le code source est disponible sur mon Github.</li>
-                <li>Développement d'un programme de trading de cryptomonnaie utilisant l'API de Binance. Mise en place de
-                  différents indicateurs techniques (RSI/EMA/EMACross/ATR/SwingLow) pour faciliter les changements de
-                  stratégies. Sauvegarde des résultats et de l'historique pour le suivi et les tests rétrospectifs (backtesting).</li>
-              </ul>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-software">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/workspace/portfolio.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Workspace</h4>
+                  <p>Logiciel</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/workspace/portfolio.png"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Agrandir"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="portfolio-details.html?workspace"
+                      data-gall="portfolioDetailsGallery"
+                      data-vbtype="iframe"
+                      class="venobox"
+                      title="Détails du projet"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h3 class="resume-title">Formation</h3>
-            <div class="resume-item">
-              <h4>Expert en technologies de l'information</h4>
-              <h5>2014 - 2019</h5>
-              <p><em>Epitech, Rennes</em></p>
-              <p></p>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-software">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/pathtracing/portfolio.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Path tracing</h4>
+                  <p>Logiciel</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/pathtracing/portfolio.png"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Agrandir"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="portfolio-details.html?pathtracing"
+                      data-gall="portfolioDetailsGallery"
+                      data-vbtype="iframe"
+                      class="venobox"
+                      title="Détails du projet"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="resume-item">
-              <h5>2017 - 2018</h5>
-              <p><em>Beijing Jiaotong University, Pékin</em></p>
-              <p><br></p>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-software">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/routing/portfolio.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Aide au routage</h4>
+                  <p>Logiciel</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/routing/portfolio.png"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Agrandir"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="portfolio-details.html?routing"
+                      data-gall="portfolioDetailsGallery"
+                      data-vbtype="iframe"
+                      class="venobox"
+                      title="Détails du projet"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
 
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p></p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Tout</li>
-              <li data-filter=".filter-software">Logiciel</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-software">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/workspace/portfolio.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Workspace</h4>
-                <p>Logiciel</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/workspace/portfolio.png" data-gall="portfolioGallery" class="venobox"
-                    title="Agrandir"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html?workspace" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                    class="venobox" title="Détails du projet"><i class="bx bx-link"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/capainterim/portfolio.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Capa Interim</h4>
+                  <p>Web</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/capainterim/portfolio.jpg"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Agrandir"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="portfolio-details.html?capainterim"
+                      data-gall="portfolioDetailsGallery"
+                      data-vbtype="iframe"
+                      class="venobox"
+                      title="Détails du projet"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-software">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/pathtracing/portfolio.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Path tracing</h4>
-                <p>Logiciel</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/pathtracing/portfolio.png" data-gall="portfolioGallery" class="venobox"
-                    title="Agrandir"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html?pathtracing" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                    class="venobox" title="Détails du projet"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-software">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/routing/portfolio.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Aide au routage</h4>
-                <p>Logiciel</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/routing/portfolio.png" data-gall="portfolioGallery" class="venobox"
-                    title="Agrandir"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html?routing" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                    class="venobox" title="Détails du projet"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/capainterim/portfolio.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Capa Interim</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/capainterim/portfolio.jpg" data-gall="portfolioGallery" class="venobox"
-                    title="Agrandir"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html?capainterim" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                    class="venobox" title="Détails du projet"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Services Section ======= -->
-    <!-- <section id="services" class="services">
+      <!-- ======= Services Section ======= -->
+      <!-- <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -589,10 +774,10 @@
 
       </div>
     </section>-->
-    <!-- End Services Section -->
+      <!-- End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <section id="testimonials" class="testimonials section-bg">
+      <!-- ======= Testimonials Section ======= -->
+      <!-- <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -665,44 +850,56 @@
 
       </div>
     </section>-->
-    <!-- End Testimonials Section -->
+      <!-- End Testimonials Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Contact</h2>
+          </div>
 
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="info">
-          <div class="row mt-1">
-
-            <div class="col-lg-4">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Localisation:</h4>
-                <p><a href="https://www.google.com/maps/place/Rennes" target="_blank">Rennes</a></p>
+          <div class="info">
+            <div class="row mt-1">
+              <div class="col-lg-4">
+                <div class="address">
+                  <i class="icofont-google-map"></i>
+                  <h4>Localisation:</h4>
+                  <p>
+                    <a
+                      href="https://www.google.com/maps/place/Rennes"
+                      target="_blank"
+                      >Rennes</a
+                    >
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div class="col-lg-4">
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Mail:</h4>
-                <p><a href="mailto: charles.polart@hotmail.fr" target="_blank">charles.polart@hotmail.fr</a></p>
+              <div class="col-lg-4">
+                <div class="email">
+                  <i class="icofont-envelope"></i>
+                  <h4>Mail:</h4>
+                  <p>
+                    <a href="mailto: charles.polart@hotmail.fr" target="_blank"
+                      >charles.polart@hotmail.fr</a
+                    >
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div class="col-lg-4">
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Téléphone:</h4>
-                <p><a href="tel: +33627757715" target="_blank">06 27 75 77 15</a></p>
+              <div class="col-lg-4">
+                <div class="phone">
+                  <i class="icofont-phone"></i>
+                  <h4>Téléphone:</h4>
+                  <p>
+                    <a href="tel: +33627757715" target="_blank"
+                      >06 27 75 77 15</a
+                    >
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <!--<div class="col-lg-8 mt-5 mt-lg-0">
+              <!--<div class="col-lg-8 mt-5 mt-lg-0">
 
             <form id="contact-form" class="php-email-form">
               <div class="form-row">
@@ -729,51 +926,58 @@
             </form>
 
           </div>-->
-
+            </div>
           </div>
         </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>Charles Polart</h3>
+        <p></p>
+        <div class="social-links">
+          <a
+            href="https://www.github.com/charlespolart"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="github"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/charles-polart-638182170"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
       </div>
-    </section><!-- End Contact Section -->
+    </footer>
+    <!-- End Footer -->
 
-  </main><!-- End #main -->
+    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    <div id="preloader"></div>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Charles Polart</h3>
-      <p></p>
-      <div class="social-links">
-        <a href="https://www.github.com/charlespolart" target="_blank" rel="noopener noreferrer" class="github"><i
-            class="bx bxl-github"></i></a>
-        <a href="https://www.linkedin.com/in/charles-polart-638182170" target="_blank" rel="noopener noreferrer"
-          class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
 
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    <!-- Form JS File -->
+    <script src="forms/contact.js"></script>
 
-  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Form JS File -->
-  <script src="forms/contact.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
